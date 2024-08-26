@@ -1,0 +1,65 @@
+/* Basic reset and styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e64a19;
+}
+
+.job-listings {
+    padding: 20px;
+}
+
+.job-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-block-end: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.job-card h2 {
+    margin: 0;
+}
+
+.job-card p {
+    margin: 5px 0;
+}
